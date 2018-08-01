@@ -11,7 +11,7 @@ namespace GitDemoProject.Controllers
         // GET: User
         public ActionResult Index()
         {
-            ViewBag.Name = "hello user";
+            ViewBag.Name = "Git Branch Demo";
             return View(ViewBag);
         }
     }
