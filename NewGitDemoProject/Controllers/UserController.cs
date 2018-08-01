@@ -11,6 +11,7 @@ namespace GitDemoProject.Controllers
         // GET: User
         public ActionResult Index(int input1,int input2)
         {
+            ViewBag.Name = "hello user....";
             //get user input
             ViewBag.Input1 = 0;
             ViewBag.Input2 = 0;
